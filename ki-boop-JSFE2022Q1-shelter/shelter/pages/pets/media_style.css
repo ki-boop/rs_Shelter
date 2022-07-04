@@ -1,0 +1,123 @@
+.wrapper{
+    width: 100%; 
+}
+html{
+overflow-x: hidden;
+}
+header{      
+width: 92.3%;
+}
+.pets{
+    width: 100%;
+    height: 1653px;
+    
+}
+.pets_content{
+    width: 100%;
+    height: 1603px;
+    justify-content: stretch;
+}
+.cards_conteiner{
+    width: 75.6%;
+    max-width: 700px;
+}
+.cards1, .cards2{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards2{
+    margin-top: 0px;
+}
+.card{
+    margin-top: 30px;
+}
+#freddie{
+    display: none;
+}
+#scarlett{
+    display: none;
+}
+.navigation{
+    margin-top: 40px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: auto;
+}
+.footer-content{
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+}
+.contacts{
+    margin-right: 60px;
+    margin-top: 30px;
+}
+.locations{
+    margin-top: 30px;
+}
+.footer-content .title{
+    margin-top: 0px;
+}
+.footer-puppy{
+    align-self: center;
+    width: 310px;
+    height: 310px;
+    padding-top: 65px;
+}
+.modal-content .img img{
+    width: 350px;
+    height: 350px;
+    border-radius: 0px 0px 0px 20px;
+  }
+  .wrapper-card{
+      
+      width: 682px;
+      height: 402px;
+  }
+  .modal-content{
+      width: 630px;
+      height: 350px;
+  }
+  .pet-about{
+      margin-top: 10px;
+      margin-left: 20px;
+      margin-right: 0px;
+  }
+  .main-info{
+      margin-top: 20px;
+      font-size: 13px;
+  }
+  .pet-list{
+      margin-top: 20px;
+      margin-left: 18px;
+  }
+  .pet-list li{
+      margin-top: 5px;
+  }
+  .window-wrapper{
+    display: none;
+    top: 0;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }

@@ -1,0 +1,453 @@
+
+.wrapper{
+    width: 100%;
+}
+.nav-menu{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    right: -320px;
+    width: 100%;
+    height: 100%;
+    max-width: 320px;
+    background-color: black;
+    transition: left 0.3s ease 0s;
+    justify-content: flex-start;
+    z-index: 1;
+    
+}
+.overflow{
+    width: 300%;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #292929;
+    height: 100%;
+    opacity: 0.9;
+    right: 320px;
+    display: none;
+}
+
+
+.animation_left{
+    animation-name: to_left;
+    animation-duration: 1s;
+}
+.animation_right{
+    animation-name: to_right;
+    animation-duration: 1s;
+}
+#logo1{
+   margin-left: 10px;
+}
+.hrefs{
+    width: 243px;
+    height: 80%;
+    min-height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.hrefs > .link{
+    max-width: fit-content;
+    text-align: center;
+    margin-left: 0px;
+    font-size: 32px;
+    margin-top: 40px;
+}
+
+.hrefs > .link:first-child{
+    margin-top: 0px;
+}
+.link a{
+    color: #CDCDCD;
+}
+
+@keyframes to_left{
+    from{
+        right: -320px;
+    }
+    to{
+        right: 0px;
+    }
+}
+@keyframes to_right{
+    from{
+        right: 0px;
+    }
+    to{
+        right: -320px;
+    }
+}
+
+.nav-menu .logo{
+    margin-top: 30px;
+}
+
+header .icon_burger{}
+
+.icon_burger{
+    display: block;
+    cursor: pointer;
+    z-index: 5;
+}
+
+
+header{
+    padding-top: 30px;
+    justify-content: space-between;
+
+}
+
+.start-screen{
+    height: auto;
+}
+.start-screen-content{
+    width: 100%;
+    height: 673px;
+    flex-direction: column;
+    align-items: center;
+}
+.start-screen-content .content{
+    width: 93.75%;
+    height: 296px;
+    margin-top: 0px;
+    margin-right: 0px;
+    align-items: center;
+}
+.start-screen-content .heading{
+    font-size: 25px;
+    text-align: center;
+    white-space: pre-line;
+    letter-spacing: 0.06em;
+    
+}
+.start-screen-content .subheading{
+    text-align: center;
+}
+.puppy{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 105px;
+}
+.puppy img{
+    width: 260px;
+    height: 271.77px;
+}
+.about{
+    height: auto;
+}
+.about-content{
+    width: 100%;
+    flex-direction: column-reverse;
+    height: 974px;
+    margin-top: 0px;
+    justify-content: space-around;
+
+}
+.about-content .content{
+    height: 494px;
+    width: 93.75%;
+    align-items: center;
+
+}
+.about-content .heading{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    white-space: pre-line;
+    margin-top: 11px;
+}
+.about-content .subheding{
+    width: 90%;
+    text-align: justify;
+    margin-top: 23px;
+}
+.about-pets{
+    margin: 0;
+    width: 260px;
+    height: 353px;
+}
+.about-pets img{
+    width: 260px;
+    height: 353px;
+}
+#jenifer{
+    display: none;
+}
+#woody{
+    display: none;
+}
+.pets{
+    height: 791px;
+    padding-top: 0px;
+    align-items: center;
+}
+.pets-content{
+    width: 93.75%;
+    height: 707px;
+}
+.pets-content .heading{
+    width: 100%;
+    font-size: 25px;
+}
+.slider{
+    width: 90%;
+    height: 507px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cards{
+order: -1;
+justify-content: center;
+}
+.help{
+   height: 745px; 
+
+}
+.help-content{
+    height: 100%;
+    justify-content: space-evenly;
+    padding: 0;
+
+}
+.help-content .heading{
+    font-size: 25px;
+    height: auto;
+}
+.list{
+    display: grid;
+    width: 90.6%;
+    justify-content: unset;
+    gap: 30px;
+    margin: 0;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1 fr 1 fr 1fr 1fr 1fr;
+    height: 555px;
+
+}
+.item .text{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.item .icon-pet{
+    max-height: 50px;
+}
+.item img{
+    max-height: 50px;
+}
+.donation{
+    height: 542px;
+    align-items: center;
+}
+.donation-content{
+    width: 93.75%;
+    flex-direction: column-reverse;
+    height: 458px;
+    margin-top: 16px;
+}
+.donation-dog{
+    width: auto;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+}
+.donation-dog img{
+    width: 260px;
+    height: 135px;
+}
+.donation-content .content{
+    width: 100%;
+    height: 281px;
+}
+.donation-content .heading{
+    width: auto;
+    font-size: 25px;
+    text-align: center;
+}
+.donation-content .subheading{
+    font-size: 15px;
+    text-align: center;
+    line-height: 160%;
+    letter-spacing: 0;
+}
+.donation-content a{
+    display: flex;
+    justify-content: center;
+}
+.scredit_card{
+    width: 281px;
+}
+.num{
+    font-size: 17px;
+    letter-spacing: 0;
+}
+.legal_information{
+    width: 93.3%;
+    text-align: justify;
+}
+footer{
+    height: 809px;
+    align-items: flex-start;
+}
+.footer-content{
+    width: 93.75%;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts{
+    width: 100%;
+    height: auto;
+}
+.contacts .title{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    white-space: pre-line;
+    margin-top: 30px;
+}
+.mail{
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.phone{
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.locations{
+    width: 100%;
+    margin-top: 40px;
+}
+.locations .title{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    white-space: pre-line;
+    margin-top: 0px;
+}
+.boston{
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+.london{
+    width: 270px;
+    justify-content: space-evenly;
+    margin-top: 37px;
+    padding-bottom: 40px;
+}
+.footer-puppy{
+    width: 260px;
+    height: 269px;
+    margin-top: 26px;
+}
+.footer-puppy img{
+    width: 260px;
+    height: 269px;
+}
+.cards .item .card:last-child{
+    display: none;
+
+}
+.cards .item .card:nth-child(2){
+    display: none;
+}
+.item .card .pet img{
+    max-height: none;
+}
+#item-left{
+margin-left: 90px;
+}
+#item-right{
+    margin-left: 90px;
+
+}
+#item-active{
+    width: 270px;
+}
+.slider-wrapper{
+    order: -1;
+}
+@keyframes move-right{
+    from{
+      left: 180px;
+    }
+    to{
+      left: -180px;
+    }
+  }
+  .transition-right{
+    animation-name: move-right;
+    animation-duration: 2s;
+  }
+  
+  @keyframes move-left{
+    from{
+      left: -180px;
+    }
+    to{
+      left: 180px;
+    }
+  }
+  .pet-about .heading{
+      text-align: center;
+  }
+  .pet-about .subheading{
+    text-align: center;
+}
+  .modal-content .img img{
+    display: none;
+  }
+ 
+  .wrapper-card{
+      margin-left: 25px;
+      width: 270px;
+      height: 402px;
+  }
+  .modal-content{
+      width: 240px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .pet-about{
+      margin-top: 10px;
+      margin-right: 0px;
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+  }
+  .main-info{
+      margin-top: 20px;
+      font-size: 13px;
+      width: 220px;
+      text-align: justify;
+  }
+  .pet-list{
+      margin-top: 20px;
+      width: auto;
+      width: 193px;
+      padding-bottom: 10px;
+  }
+  .pet-list li{
+      margin-top: 5px;
+  }
+  .window-wrapper{
+    display: none;
+    top: 0;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }

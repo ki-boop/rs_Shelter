@@ -1,0 +1,195 @@
+.wrapper{
+        width: 100%; 
+}
+html{
+    overflow-x: hidden;
+}
+header{
+    padding-top: 30px;        
+    width: 92.3%;
+}
+.start-screen{
+    height: 1165px;
+}
+.start-screen-content{
+    width: 768px;
+    flex-direction: column;
+    align-items: center;
+}
+.start-screen-content .content{
+    margin-top: 0px;
+    margin-right: 0px;
+}
+.button_primary{
+    align-self: center;
+}
+.puppy{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+.puppy img{
+    width: 569px;
+    height: 593px;
+}
+.about{
+    width: 100%;
+    height: 1048px;
+}
+.about-content{
+    width: 437px;
+    height: 868px;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.about-content .about-pets{
+    margin-right: 0px;
+    margin-left: 0px;
+    height: 408px;
+}
+.pets-content{
+    width: 100%;
+}
+.slider{
+    width: 92.3%;
+}
+#woody{
+    display: none;
+}
+.cards{
+    width: 81.9%;
+    max-width: 700px;
+}
+.help{
+    height: 779px;
+}
+.help-content{
+height: auto;
+
+}
+.list{
+    display: grid;
+    column-gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 60px;
+    height: auto;
+    width: 630px;
+}
+.donation{
+    height: 783px;
+    align-items: baseline;
+    
+}
+.donation-content{
+    height: 603px;
+    width: 505px;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    
+    
+}
+.donation-content .content{
+    margin-top: 0px;
+}
+footer{
+    height: auto;
+}
+.footer-content{
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+}
+.contacts{
+    margin-right: 60px;
+    margin-top: 30px;
+}
+.locations{
+    margin-top: 30px;
+}
+.footer-content .title{
+    margin-top: 0px;
+}
+.footer-puppy{
+    align-self: center;
+    width: 310px;
+    height: 310px;
+    padding-top: 65px;
+}
+.cards{
+    width: 580px;
+}
+.cards .item .card{
+    margin-right: 40px;
+}
+#item-active{
+    width: 620px;
+}
+.cards .item .card:last-child{
+    display: none;
+}
+.button_arrow{
+    width: 91px;
+}
+@keyframes move-right{
+    from{
+      left: 0px;
+    }
+    to{
+      left: -620px;
+    }
+  }
+  .transition-right{
+    animation-name: move-right;
+    animation-duration: 2s;
+  }
+  
+  @keyframes move-left{
+    from{
+      left: -620px;
+    }
+    to{
+      left: 0px;
+    }
+  }
+  .modal-content .img img{
+    width: 350px;
+    height: 350px;
+    border-radius: 0px 0px 0px 20px;
+  }
+  .wrapper-card{
+      
+      width: 682px;
+      height: 402px;
+  }
+  .modal-content{
+      width: 630px;
+      height: 350px;
+  }
+  .pet-about{
+      margin-top: 10px;
+      margin-left: 20px;
+      margin-right: 0px;
+  }
+  .main-info{
+      margin-top: 20px;
+      font-size: 13px;
+  }
+  .pet-list{
+      margin-top: 20px;
+      margin-left: 18px;
+  }
+  .pet-list li{
+      margin-top: 5px;
+  }
+  .window-wrapper{
+    display: none;
+    top: 0;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
